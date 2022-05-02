@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  /*background-color: beige;*/
+}
+
+.cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttonSection {
+  /*display: flex;*/
+  justify-content: center;
+}
+
+.buttonSection ul{
+  /*align-content: center;*/
+}
+
+.buttonSection ul li {
+  display: inline;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  list-style-type:none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.hiddenItem {
+  display: none;
+}

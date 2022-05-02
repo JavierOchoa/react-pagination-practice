@@ -1,0 +1,23 @@
+.charCard {
+    max-width: 320px;
+    max-height: 360px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1rem;
+    background-color: white;
+}
+
+.profilePic {
+    margin: 0.5rem 1rem 0 1rem;
+    border-radius: 20px;
+    width: 15rem;
+}
+
+.charName {
+    margin-top: 0.1rem;
+    font-weight: bold;
+}
+
+.charSpecies {
+    margin-top: 3px;
+}
